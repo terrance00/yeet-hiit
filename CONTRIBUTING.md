@@ -14,3 +14,9 @@
 1. Pick up an issue - post comments if you have questions
 2. Always reference the issue in your pull request
 3. Untill devops is underway - do compile and run
+
+## Debugging:
+1. Run `ng build` - this will output the angular app into the `./www` folder
+2. Run `cordova run android`
+3. Test the app
+4. It is possible to debug your app if you run it on platform browser and use vistual studio code as your IDE.
