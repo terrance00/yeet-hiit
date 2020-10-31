@@ -6,9 +6,11 @@ import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { HomePageComponent } from './pages/home-page/home-page.component';
+import { ConfigureTimersPageComponent } from './pages/configure-timers-page/configure-timers-page.component';
 
 @NgModule({
-  declarations: [AppComponent],
+  declarations: [AppComponent, HomePageComponent, ConfigureTimersPageComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
