@@ -8,7 +8,7 @@ export const ConfigureTimersBaseRoute: string = 'configure-timers'
 export const YeetHiitBaseRoutes: Route[] = [
     {
         path: '',
-        redirectTo: HomeBaseRoute
+        component: HomePageComponent
     },
     {
         path: HomeBaseRoute,
@@ -17,5 +17,9 @@ export const YeetHiitBaseRoutes: Route[] = [
     {
         path: ConfigureTimersBaseRoute,
         component: ConfigureTimersPageComponent
+    },
+    {
+        path: '**',
+        redirectTo: HomeBaseRoute
     }
 ]

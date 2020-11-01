@@ -1,10 +1,9 @@
 import { NgModule } from '@angular/core';
-import { Routes, RouterModule } from '@angular/router';
-
-const routes: Routes = [];
+import { RouterModule } from '@angular/router';
+import { YeetHiitBaseRoutes } from '../consts/yeet-hiit-base-routes';
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes, { useHash: true })],
+  imports: [RouterModule.forRoot(YeetHiitBaseRoutes, { useHash: true })],
   exports: [RouterModule],
 })
 export class AppRoutingModule {}
